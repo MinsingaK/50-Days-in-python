@@ -1,8 +1,9 @@
-def swap_values(liste:list):
-    val = liste[0]
-    liste[0] = liste[-1]
-    liste[-1] = val
-    return print(liste)
+def swap_values(listed: list):
+    val = listed[0]
+    listed[0] = listed[-1]
+    listed[-1] = val
+    return print(listed)
 
-liste_num = [2, 4,67, 7]
-swap_values(liste_num)
+
+listed_num = [2, 4, 67, 7]
+swap_values(listed_num)

@@ -4,4 +4,5 @@ def my_discount():
     new_price = price - (price*disc)/100
     return print(f"The new price after discount is {new_price}€")
 
+
 my_discount()

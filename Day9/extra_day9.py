@@ -1,15 +1,16 @@
-def zero_last(liste:list):
-    if 0 not in liste:
-        liste.sort()
-    else :
-        for i in liste:
+def zero_last(listed: list):
+    if 0 not in listed:
+        listed.sort()
+    else:
+        for i in listed:
             if i == 0:
-                liste.remove(i)
-                liste.append(0)
-    return print(liste)
+                listed.remove(i)
+                listed.append(0)
+    return print(listed)
 
-liste1 = [1, 4, 6, 0, 7,0,9]
-liste2 = [2, 1, 4, 7, 6]
 
-zero_last(liste1)
-zero_last(liste2)
+listed1 = [1, 4, 6, 0, 7, 0, 9]
+listed2 = [2, 1, 4, 7, 6]
+
+zero_last(listed1)
+zero_last(listed2)

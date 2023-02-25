@@ -6,5 +6,5 @@ def convert_add(liste:list):
         S = S + int(i)
     return print("La Somme des termes est {} et la nouvelle liste est {}".format(S,b))
 
-lis = ['1','5','9']
-convert_add(lis)
+liste = ['1','5','9']
+convert_add(liste)

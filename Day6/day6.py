@@ -4,4 +4,6 @@ def user_name():
     mail = input("Enter your email address : ")
     username = mail.split('@')[0]
     print(f"The username is : {username.capitalize()}")
+
+
 user_name()

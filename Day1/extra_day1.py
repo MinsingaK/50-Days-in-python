@@ -1,6 +1,6 @@
 def longuest_value(d:dict):
     longuest = max(d.values(),key=len)
-    return longuest
+    return print(f"the longuest value is {longuest}")
 
 fruits={'fruit':'apple','color':'green'}
-print(longuest_value(fruits))
+longuest_value(fruits)

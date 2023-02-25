@@ -15,10 +15,11 @@
 
 #the correction
 
+
 def hide_password():
     password = input("Enter your password : ")
     password2 = len(password) * '*'
-    return f"your password is {password2}"\
-     f" and it has {len(password2)} parameters."
+    return f"your password is {password2} and it has {len(password2)} parameters."
+
 
 print(hide_password())

@@ -1,4 +1,4 @@
-# tuple() method allows the trasformation from a list to a tuple
+# tuple() method allows the transformation from a list to a tuple
 
 def lower_case(liste:list):
     d = []

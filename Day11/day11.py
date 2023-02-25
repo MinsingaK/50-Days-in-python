@@ -1,11 +1,12 @@
-# here the sorted method is used to sort both string characters to
-# allow simplified comparism
+# here the sorted method is used to sort both string characters to allow simplified comparison
 
-def equal_string(chaine1:str,chaine2:str):
+def equal_string(chaine1: str, chaine2: str):
     ch1 = sorted(chaine1)
     ch2 = sorted(chaine2)
     if ch1 == ch2:
         return True
-    else :
+    else:
         return False
-print(equal_string("ananas","nanasa"))
+
+
+print(equal_string("ananas", "nanasa"))
