@@ -1,4 +1,4 @@
-diction = {'Nkrumah':'yes','Borel':'yes','Jeff':'no','Epalla':'yes','Arthur':'no','Donald':'yes'}
+diction = {'Nkrumah': 'yes', 'Borel': 'yes', 'Jeff': 'no','Epalla':'yes','Arthur':'no','Donald':'yes'}
 
 def register_check(dico:dict):
     count = 0
