@@ -1,4 +1,4 @@
-def words_count(string:str):
+def words_count(string: str):
     num = string.split(' ')
     print(f"your string of words has {len(num)} words.")
 
@@ -6,7 +6,7 @@ def words_count(string:str):
 words_count('je suis actuellement a ActivSpace.')
 
 
-def count_element(string:str):
+def count_element(string: str):
     string = string.replace(' ','')
     return print(f"Your sting of words has {len(string)} elements")
 
